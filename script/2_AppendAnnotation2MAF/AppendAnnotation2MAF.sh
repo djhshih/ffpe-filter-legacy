@@ -1,7 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-source /broad/software/scripts/useuse
-use Python-2.7 
+# use Python-2.7 
 
 while getopts "i:m:f:v:o:?" Option
 do

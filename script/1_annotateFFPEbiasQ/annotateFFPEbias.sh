@@ -1,8 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-source /broad/software/scripts/useuse
-use Python-2.7 
-use Java-1.7
+# use Python-2.7 
+# use Java-1.7
 
 while getopts "i:b:c:r:f:t:d:o:x:s:j:J:?" Option
 do

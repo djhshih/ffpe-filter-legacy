@@ -9,8 +9,7 @@ set -euo pipefail
 # NOTE: Edit the below paths according to your environment.
 
 # Matlab (2013a) Common Runtime installation directory
-#mcr_root=/opt/mcr/v81
-mcr_root=/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2013a
+mcr_root=/opt/mcr/v81
 
 # Java 1.7
 java=java
@@ -54,7 +53,7 @@ if [[ ! -f "$outdir/${id}.ffpe_metrics.txt" ]]; then
      -i ${id} \
      -b ${bam} \
      -r ${ref} \
-     -d ${dnsnp} \
+     -d ${dbsnp} \
      -f G \
      -t A \
      -c CG. \
