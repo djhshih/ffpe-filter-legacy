@@ -1,6 +1,6 @@
 # ffpe-filter-legacy
 
-Legacy filter for removing FFPE artifact (C>T in the context of the XCG context)
+Legacy filter for removing FFPE artifact (C>T in the XCG context)
 created by Chip Stewart and Lee Lichtenstein.
 
 Created for the purpose of a benchmark baseline.
