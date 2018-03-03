@@ -1,14 +1,15 @@
 # ffpe-filter-legacy
 
-Legacy filter for removing FFPE artifact (C>T in the XCG context), which was
+Legacy filter for removing FFPE artifact (C>T/G>A in the XCG context), which was
 originally created by Chip Stewart and Lee Lichtenstein.
 
-It is assembled here for to serve as a benchmarking baseline.
+It is assembled here to serve as a benchmarking baseline.
 
 ## Use
 
 ### Option 1
 
+Install dependencies (Java 7, Python 2.7, and Matlab Common Runtime 2013a).
 Edit `ffpe-filter.sh` to specify path to dependencies.
 Then run `ffpe-filter.sh` with required parameters.
 
